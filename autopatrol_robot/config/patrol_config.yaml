@@ -1,0 +1,17 @@
+# 巡逻节点参数配置
+patrol_node:
+  ros__parameters:
+    # 是否使用仿真时间（仿真环境请设为 true）
+    use_sim_time: true
+
+    # 初始位姿 [x, y, yaw(rad)]
+    initial_point: [-2.0, -0.5, 0.0]
+
+    # 目标点列表，按 [x, y, yaw(rad)] 依次排列，可追加更多三元组
+    target_points: [-1.0, 0.0, 0.0, 1.0, 1.0, 1.57]
+
+    # 图片保存路径（需要以 / 结尾，例如：/home/user/images/）
+    image_save_path: '/home/xk/study/mine_slam/images/'
+
+    # 图像话题（与仿真/相机模型一致）
+    image_topic: '/camera/image_raw'

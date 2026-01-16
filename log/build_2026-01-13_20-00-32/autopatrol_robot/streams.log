@@ -1,0 +1,45 @@
+[0.325s] Invoking command in '/home/xk/study/mine_slam/src/autopatrol_robot': AMENT_PREFIX_PATH=/home/xk/study/mine_slam/src/install/autopatrol_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xk/study/mine_slam/src/install/autopatrol_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xk/study/mine_slam/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/xk/study/mine_slam/src/build/autopatrol_robot/build install --record /home/xk/study/mine_slam/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[0.446s] running egg_info
+[0.447s] creating ../build/autopatrol_robot/autopatrol_robot.egg-info
+[0.447s] writing ../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[0.447s] writing dependency_links to ../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[0.447s] writing entry points to ../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[0.447s] writing requirements to ../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[0.452s] writing top-level names to ../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[0.452s] writing manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.453s] reading manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.453s] writing manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.453s] running build
+[0.453s] running build_py
+[0.453s] creating /home/xk/study/mine_slam/src/build/autopatrol_robot/build
+[0.453s] creating /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib
+[0.453s] creating /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.453s] copying autopatrol_robot/__init__.py -> /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.453s] copying autopatrol_robot/speaker.py -> /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.453s] copying autopatrol_robot/patrol_node.py -> /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.454s] running install
+[0.454s] running install_lib
+[0.454s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[0.454s] copying /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot/__init__.py -> /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[0.454s] copying /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[0.454s] copying /home/xk/study/mine_slam/src/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[0.454s] byte-compiling /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+[0.454s] byte-compiling /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+[0.455s] byte-compiling /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[0.456s] running install_data
+[0.456s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/share/ament_index
+[0.456s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/share/ament_index/resource_index
+[0.456s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/share/ament_index/resource_index/packages
+[0.456s] copying resource/autopatrol_robot -> /home/xk/study/mine_slam/src/install/autopatrol_robot/share/ament_index/resource_index/packages
+[0.456s] copying package.xml -> /home/xk/study/mine_slam/src/install/autopatrol_robot/share/autopatrol_robot
+[0.456s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/share/autopatrol_robot/config
+[0.456s] copying config/patrol_config.yaml -> /home/xk/study/mine_slam/src/install/autopatrol_robot/share/autopatrol_robot/config
+[0.456s] creating /home/xk/study/mine_slam/src/install/autopatrol_robot/share/autopatrol_robot/launch
+[0.456s] copying launch/autopatrol.launch.py -> /home/xk/study/mine_slam/src/install/autopatrol_robot/share/autopatrol_robot/launch
+[0.456s] running install_egg_info
+[0.457s] Copying ../build/autopatrol_robot/autopatrol_robot.egg-info to /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[0.457s] running install_scripts
+[0.468s] Installing patrol_node script to /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/autopatrol_robot
+[0.468s] Installing speaker script to /home/xk/study/mine_slam/src/install/autopatrol_robot/lib/autopatrol_robot
+[0.468s] writing list of installed files to '/home/xk/study/mine_slam/src/build/autopatrol_robot/install.log'
+[0.479s] Invoked command in '/home/xk/study/mine_slam/src/autopatrol_robot' returned '0': AMENT_PREFIX_PATH=/home/xk/study/mine_slam/src/install/autopatrol_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xk/study/mine_slam/src/install/autopatrol_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xk/study/mine_slam/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xk/study/mine_slam/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/xk/study/mine_slam/src/build/autopatrol_robot/build install --record /home/xk/study/mine_slam/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data

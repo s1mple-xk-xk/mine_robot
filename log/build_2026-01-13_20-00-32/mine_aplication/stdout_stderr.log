@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/mine_aplication/mine_aplication.egg-info
+writing ../build/mine_aplication/mine_aplication.egg-info/PKG-INFO
+writing dependency_links to ../build/mine_aplication/mine_aplication.egg-info/dependency_links.txt
+writing entry points to ../build/mine_aplication/mine_aplication.egg-info/entry_points.txt
+writing requirements to ../build/mine_aplication/mine_aplication.egg-info/requires.txt
+writing top-level names to ../build/mine_aplication/mine_aplication.egg-info/top_level.txt
+writing manifest file '../build/mine_aplication/mine_aplication.egg-info/SOURCES.txt'
+reading manifest file '../build/mine_aplication/mine_aplication.egg-info/SOURCES.txt'
+writing manifest file '../build/mine_aplication/mine_aplication.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xk/study/mine_slam/src/build/mine_aplication/build
+creating /home/xk/study/mine_slam/src/build/mine_aplication/build/lib
+creating /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication
+copying mine_aplication/__init__.py -> /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication
+copying mine_aplication/init_robot_pose.py -> /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication
+copying mine_aplication/get_robot_pose.py -> /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication
+copying mine_aplication/nav_to_pose.py -> /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication
+running install
+running install_lib
+creating /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication
+copying /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication/__init__.py -> /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication
+copying /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication/init_robot_pose.py -> /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication
+copying /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication/get_robot_pose.py -> /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication
+copying /home/xk/study/mine_slam/src/build/mine_aplication/build/lib/mine_aplication/nav_to_pose.py -> /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication
+byte-compiling /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+byte-compiling /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+byte-compiling /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+running install_data
+creating /home/xk/study/mine_slam/src/install/mine_aplication/share/ament_index
+creating /home/xk/study/mine_slam/src/install/mine_aplication/share/ament_index/resource_index
+creating /home/xk/study/mine_slam/src/install/mine_aplication/share/ament_index/resource_index/packages
+copying resource/mine_aplication -> /home/xk/study/mine_slam/src/install/mine_aplication/share/ament_index/resource_index/packages
+copying package.xml -> /home/xk/study/mine_slam/src/install/mine_aplication/share/mine_aplication
+running install_egg_info
+Copying ../build/mine_aplication/mine_aplication.egg-info to /home/xk/study/mine_slam/src/install/mine_aplication/lib/python3.10/site-packages/mine_aplication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_robot_pose script to /home/xk/study/mine_slam/src/install/mine_aplication/lib/mine_aplication
+Installing init_robot_pose script to /home/xk/study/mine_slam/src/install/mine_aplication/lib/mine_aplication
+Installing nav_to_pose script to /home/xk/study/mine_slam/src/install/mine_aplication/lib/mine_aplication
+writing list of installed files to '/home/xk/study/mine_slam/src/build/mine_aplication/install.log'
