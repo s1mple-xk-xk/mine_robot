@@ -40,7 +40,7 @@ class PatrolNode(BasicNavigator):
         self.speach_client_ = self.create_client(SpeachText, "speech_text")
 
         # 订阅与保存图像相关定义
-        self.declare_parameter('image_save_path', '/home/xk/study/mine_slam/images/')
+        self.declare_parameter('image_save_path', 'images/')
         self.declare_parameter('image_topic', '/camera/image_raw')
         self.image_save_path = self.get_parameter('image_save_path').value
         self.image_topic = self.get_parameter('image_topic').value
@@ -207,15 +207,19 @@ class PatrolNode(BasicNavigator):
             return False
 
         try:
-            # 确保路径以 / 结尾
+            # 获取保存路径，如果为空则使用默认路径
             save_path = self.image_save_path
-            if save_path and not save_path.endswith('/'):
+            if not save_path or save_path.strip() == '':
+                save_path = 'images/'
+                self.get_logger().info(f"图片保存路径未设置，使用默认路径: {save_path}")
+            
+            # 确保路径以 / 结尾
+            if not save_path.endswith('/'):
                 save_path += '/'
 
-            # 如果路径不为空，确保目录存在
-            if save_path:
-                os.makedirs(save_path, exist_ok=True)
-                self.get_logger().info(f"图片保存路径: {save_path}")
+            # 自动创建目录（如果不存在）
+            os.makedirs(save_path, exist_ok=True)
+            self.get_logger().info(f"图片保存路径: {save_path}")
 
             # 转换图像
             cv_image = self.bridge.imgmsg_to_cv2(self.latest_image, 'bgr8')
